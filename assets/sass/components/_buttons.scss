@@ -1,0 +1,12 @@
+.button {
+    font-weight: bold;
+    color: white;
+    background-color: $coral;
+    border: none;
+
+    &:hover {
+        background-color: $color_steelblue;
+    }
+
+
+}

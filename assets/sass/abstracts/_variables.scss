@@ -1,0 +1,36 @@
+/*
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+$breakpoint: (
+    'sm': (min-width: 576px),
+    'md': (min-width: 768px),
+    'lg': (min-width: 992px),
+    'xl': (min-width: 1200px)
+);
+
+// Color 
+$color_black: #000;
+$color_white: #fff;
+$color_steelblue: #588FC3;
+$color_gray: gray;
+$color_marfil: #f2f4f5;
+$color_coral: coral;
+
+
+// Font Sizes
+$font-x-large :  20px ; 
+$font-large :  18px ; 
+$font-medium :  16px ; 
+$font-small :  14px ;
+

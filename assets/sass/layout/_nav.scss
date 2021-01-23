@@ -1,0 +1,34 @@
+.nav{
+    width: 100%;
+    padding: 2%;
+    border-bottom: 1px solid $color_gray ;
+    background-color: steelblue;
+
+    &__logo{
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+
+    &__menu{
+        text-align: right;
+    }
+
+    &__item{
+        display: inline-block;
+        &:first-child{
+            display: none;
+            @include respond-to('sm'){
+                display:inline-block;
+            }
+        }
+        a{
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+    }
+}
+
+.input-menu {
+    border-radius: 30px;
+}

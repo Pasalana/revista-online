@@ -1,0 +1,22 @@
+.tag{
+    display: inline;
+    padding: 4px;
+    margin-right: 1px;
+    color: $color_white;
+    background-color: $color_steelblue;
+}
+
+.tags {
+    border-bottom: 1px solid $color_grey;
+}
+
+.tags ul {
+    padding: 0;
+    list-style: none;
+}
+
+.tags ul li {
+    padding: 2px 4px;
+    margin-right: 1px;
+    color: $color_white;
+}
